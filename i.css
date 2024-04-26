@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+    
+
+}
+body{
+    display:flex;
+    justify-content: center;
+   align-items: center;
+    min-height:100vh;
+   /* background: url('lo.jpeg') no-repeat;*/
+    background-size: cover;
+ 
+}
+.wrapper{
+    position: relative;
+  background:transparent;
+    color:black;
+    border: 2px solid black;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.2);
+
+    width:400px;
+   border-radius: 10px ;
+  padding :30px 40px;
+
+  
+}
+.wrapper h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+width:100%;
+height: 40px;
+
+margin: 30px 0;
+}
+.wrapper input{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background: transparent;
+    border: none;
+    outline:none;
+    border:2px solid black;
+font-size: 18px;
+color:black;
+padding:20px 45px 20px 20px;
+
+}
+.input-box input::placeholder{
+    color:coral;
+}
+.input-box i{
+    position: absolute;
+    right: 39px;
+    padding: 0.7rem;
+    font-size: 20px;
+}
+.wrapper .refo{
+    display:flex;
+    justify-content: space-between;
+    font-size:14px;
+    margin:-15px 0 15px;
+}
+.refo label {
+    display: flex;
+    justify-content: calc();
+   width: fit-content;
+
+}
+.refo label input{
+    display: flex;
+    justify-content: calc();
+   width: fit-content;
+margin-right: 3px;
+accent-color: #fff;
+    
+}
+.refo a{
+    color:coral;
+    text-decoration: none;
+}
+.refo a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.btn{
+    width:100%;
+    border-radius: 40px;
+    height:36px;
+    outline: none;  
+    background:coral;
+    border:2px solid black;
+box-shadow: 0 0 10px rgba  (0,0,0 .1);   
+font-size: 1rem; 
+cursor:pointer;
+font-weight: 600;
+}
+.btn a{
+    color:black;
+    text-decoration: none;
+}.btn a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.wrapper .regis{
+    font-size:14px;
+    text-align: center;  
+    margin-top: 20px;
+
+}
+ .regis p a{
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+ }
+ .regis p a:hover{
+    text-decoration: underline;
+ }
